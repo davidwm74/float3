@@ -1,0 +1,46 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 100%;                      
+	max-width: 960px;
+	background-color: lightblue;
+	margin: 15px auto;
+	padding: 15px 0;
+	border: .2em double green;
+}
+section, aside, footer, header {
+	margin-bottom: 1em;
+	border: .3em solid green;
+	}
+
+header {
+	width: 99%;                         
+	padding-bottom: 2em;
+	align-content: center;
+}	
+#left {
+	float: left;
+	width: 30%;
+	padding-bottom: 2em;
+	align-content: center;
+
+}	
+#right {
+	width: 30%;               
+	float: right;
+	padding: 2.5%;              
+	margin-right: 2.5%;      
+	}
+section {
+		width: 30%;
+		float: right;
+}
+section img {
+	max-width: 100%;
+	
+}
+footer {
+	clear: both;
+	width: 99%;                    
+	padding-top: .7em;
+}
